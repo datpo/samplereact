@@ -1,0 +1,19 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "no-script-url": 0
+  },
+  "plugins": [
+    "react-hooks"
+  ],
+  "rules": {
+    "semi": "error",
+    "no-script-url": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}
